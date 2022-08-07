@@ -14,6 +14,8 @@ builds:
     goarch:
       - amd64
       - arm64
+archives:
+  - format: binary
 dockers:
   - use: buildx
     goos: linux
